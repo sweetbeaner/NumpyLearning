@@ -9,3 +9,4 @@
     np.savez(path_name,a=arr1,b=arr2)
 ## 对已保存的压缩文件追加数据
     np.savez_comparessed(path_name,a=arr1,b=arr2)
+    #a、b为自己定义的标志变量
