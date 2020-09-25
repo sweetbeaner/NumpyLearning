@@ -20,7 +20,7 @@ numpy数组间的基础运算是一对一，也就是a.shape==b.shape，但是�
     [30 31 32]]
     
     
-![广播机制](https://github.com/sweetbeaner/NumpyLearning/blob/master/%E5%B9%BF%E6%92%AD%E6%9C%BA%E5%88%B6.png)
+![广播机制](https://github.com/sweetbeaner/NumpyLearning/blob/master/%E5%B9%BF%E6%92%AD%E6%9C%BA%E5%88%B6.png?raw=true)
 
 只有当两个数组的trailing dimensions  compatible时才会触发广播，否则报错ValueError: frames are not aligned exception
 
